@@ -1,0 +1,138 @@
+body{
+	background-color: #57c7c3;
+}
+.clearfix:after{
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.wrapper{
+	width: 100%;
+	position: relative;
+}
+.wrapper img{
+	width: 100%;
+	height: auto;
+}
+.f-web-button{
+	width: 70%;
+}
+.f-web-button img{
+	width: 70%;
+	position: absolute;
+	left: 15%;
+	top: 25em;
+}
+/* 参赛履历打开begin */
+/* 上边描述begin*/
+.f-web-content{
+	width: 100%;
+	background-color: #efefef;
+	font-size: 1.25em;
+} 
+.f-web-header{
+	width: 100%;
+	background-color: #fff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 1em;
+}
+.f-web-header-in{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.f-web-user-img{
+	width: 4em;
+	height: 4em;
+	float: left;
+	margin-right: 2em;
+}
+.f-web-user-img img{
+	width: 4em;
+	height: 4em;
+}
+.f-web-user-info{
+	line-height: 2;
+	font-family: '微软雅黑';
+}
+/* 上边描述 over*/
+/* 奖项描述区begin */
+.f-web-text-area{
+	width: 100%;
+}
+.f-web-text-area-in{
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 1.75em;
+}
+.f-web-text-area-in-con{
+	font-family: '微软雅黑';
+}
+.f-web-text-area-in-con li{
+	line-height: 2;
+}
+.f-web-text-area-in-con{
+	padding-left: 2em;
+	border-left: 2px solid #df6464;
+	background-color: #fff;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 1em;
+}
+.f-web-none{
+	float: right;
+}
+/* 奖项描述区over */
+/* 分享区begin */
+.f-web-share{
+	width: 100%;
+	padding-bottom: 4em;
+}
+.f-web-share-in-img{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.f-web-share-in-img img{
+	width: 8em;
+}
+.f-web-share-in-s{
+	width: 50%;
+	float: left;
+}
+.f-web-share-in-s img{
+	height: 2em;
+}
+.f-web-share-in-s-in{
+	padding-left: 1.5em;
+}
+.f-web-share-in-s-in p{
+	line-height: 2.5;
+}
+/* 分享区over */
+/* 下导航区  f-web-nav-b---begin */
+.f-web-nav-b-in{
+	
+}
+.f-web-nav-b-in-con{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.f-web-nav-b-in-con img{
+	height: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.f-web-nav-b{
+	width: 100%;
+	float: left;
+	background-color: #333333;
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+}
+/* 下导航区  f-web-nav-b---over */
+/* 参赛履历打开begin */

@@ -1,0 +1,288 @@
+.clearfix:after{
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear:both;
+}
+body{
+	font: normal 100% Helvetica, Arial, sans-serif;
+}
+.wrapper{
+	width: 100%;
+}
+/* 头部 f-web-header------begin */
+.f-wed-header{
+	width: 100%;
+	background-color: #3498db;
+}
+.f-web-header-in{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.f-web-header-in h3{
+	font-size: 1.15em;
+	font-family: '微软雅黑';
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+}
+.f-web-header-in h3 span{
+	line-height: 2.5em;
+}
+.f-web-header-in-img{
+	float: right;
+}
+.f-web-header-text{
+	width: 90%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 头部 f-web-header-----over */
+/* 链接区f-web-links----begin */
+.f-web-links{
+	background-color: #fff;
+	width: 100%;
+	font-family: '微软雅黑';
+	border-bottom: 1px solid #b5b5b5;
+}
+.f-web-links-in{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.f-web-links-in img{
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align:middle;
+}
+.f-web-links-in{
+	font-size: 1.15em;
+}
+.f-web-links-in p{
+	line-height: 2.5em;
+}
+.f-web-links-in p span{
+	display: inline-block;
+}
+.f-web-links-a a{
+	color: #429fdd;
+}
+.f-web-links-a{
+	margin-left: 0.2em;
+}
+.img-con{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+.img-con-maigin-l{
+	margin-left: 1em;
+}
+.level-text{
+	color: #429fdd;
+}
+.ing-text{
+	color: #d2502d;
+}
+.school-text{
+	white-space: nowrap;
+}
+/* 链接区f-web-links----over */
+/* 链接区下  f-web-links-b----begin */
+.f-web-links-b{
+	width: 100%;
+	padding-top: 1.05em;
+	padding-bottom: 1.05em;
+	text-align: center;
+	background-color: #efefef;
+}
+.f-web-links-b img{
+	width: 10em;
+
+}
+/* 链接区下  f-web-links-b----over */
+/* 内容区  f-web-con----begin */
+.f-web-con{
+	width: 100%;
+}
+.f-web-con-in{
+	width: 100%;
+}
+.f-web-con-in-header{
+	font-size: 1.15em;
+	line-height: 2.5em;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	color: #fff;
+}
+.f-web-con-in-header-title{
+	width: 40%;
+	float: left;
+	background-color: #3498db;
+	text-align: center;
+
+}
+.f-web-con-in-text{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	font-family: '微软雅黑';
+}
+.f-web-con-in-text p{
+	line-height: 1.5;
+}
+/* 内容区  f-web-con----over */
+/* 评论区  f-web-mess----begin */
+.f-web-mess{
+	width: 100%;
+	font-family: '微软雅黑';
+}
+.f-web-mess-in{
+	
+}
+.f-web-mess-in-header{
+	font-size: 1.15em;
+	line-height: 2.5;
+	border-bottom: 1px solid #e5e7ea;
+}
+.f-web-mess-in-header-in{
+	padding-right: 6%;
+	padding-left: 6%;
+}
+.f-web-mess-in-con-in{
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 0.3em;
+}
+.f-web-mess-in-con{
+	border-bottom: 1px solid #e5e7ea;
+}
+.user-img{
+	display: inline-block;
+	width: 2.3em;
+	height: 2.3em;
+	border-radius: 50%;
+	float: left;
+}
+.user-img img{
+	width: 2.3em;
+	height: 2.3em;
+	border-radius: 50%;
+}
+.user-text{
+	height: 2.3em;
+	line-height: 2.3em;
+}
+.user-name{
+	display: inline-block;
+	height: 2.3em;
+	line-height: 2.3em;
+	color: #3498db;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+.user-post{
+	float: right;
+	font-size: 0.9em;
+	color: #777777;
+}
+.f-web-mess-in-con-in-time{
+	padding-left: 15%;
+	color: #b8c4ce;
+}
+.f-web-mess-in-con-in-textarea{
+	padding-left: 15%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.mess-text{
+	font-size: 0.95em;
+}
+/* 评论区  f-web-mess----begin */
+/* 占位区  box----begin */
+.box{
+	height: 1em;
+	background-color: #efefef;
+}
+/* 占位区  box----over */
+/* 下导航区  f-web-nav-b---begin */
+.f-web-nav-b-in{
+	
+}
+.f-web-nav-b-in-con{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.f-web-nav-b-in-con img{
+	height: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.f-web-nav-b{
+	width: 100%;
+	float: left;
+	background-color: #333333;
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+}
+/* 下导航区  f-web-nav-b---over */
+/* 发布评论 f-web-post-mess---begin */
+.f-web-post-mess{
+	width: 100%;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	line-height: 3em;
+	background-color: #dddddd;
+	position: fixed;
+	right: 0px;
+	bottom:3.2em;
+	display: none;
+}
+.f-web-post-text input{
+	height: 2.5em;
+	line-height: 2.5em;
+	width: 80%;
+	border: 1px solid #eeeeee;
+	border-radius: 5%;
+	padding-left: 0.5em;
+}
+.f-web-post-text{
+	width: 75%;
+	float: left;
+	text-align: right;
+}
+.f-web-post-btn{
+	width: 25%;
+	float: left;
+	color: #fff;
+	font-family:'微软雅黑';
+	text-align: center;
+}
+.f-wed-post-button{
+	height: 2.5em;
+	padding-right: 0.4em;
+	padding-left: 0.4em;
+	padding-top: 0.2em;
+	padding-top: 0.2em;
+	background-color: #3792e7;
+	border:none;
+	border-radius: 10%;
+	color: #fff;
+}
+/* 发布评论 f-web-post-mess---over */
+/* 模态弹窗区---begin */
+.f-web-back{
+	background-color: #000000;
+	width: 100%;
+	opacity: 0.7;
+	height: 50em;
+	position: fixed;
+	right: 0px;
+	bottom:6.7em;
+	display: none;
+}
+/* 模态弹窗区---over */
