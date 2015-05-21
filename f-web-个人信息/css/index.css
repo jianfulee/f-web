@@ -1,0 +1,84 @@
+body{
+	background: #efefef;
+	font-size: 62.5%; 
+}
+.clearfix:after{
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.f-web-content{
+	width: 100%;
+	padding-bottom: 6em;
+}
+.f-web-info{
+	font-size: 1.6em;
+	font-family: '微软雅黑';
+	padding-left: 1.5em;
+	height:  12vw;
+	line-height: 12vw;
+}
+.f-web-info-input{
+	padding-left: 1.5em;
+	background: #fff;
+	height: 13vw;
+}
+.f-web-info-input input[type="text"]{
+	height: 13vw;
+	line-height: 13vw;
+	border: none;
+	width: 100%;
+}
+.f-web-info-input input:focus{
+	outline: none;
+	font-size: 1.6em;
+	font-family: '微软雅黑';
+}
+
+.f-web-seclect{
+	height: 13vw;
+	line-height: 13vw;
+	background: #74bae8;
+	padding-left: 1.5em;
+}
+.f-web-seclect a{
+	font-size: 1.6em;
+	color: #fff;
+	font-family: '微软雅黑';
+}
+.f-web-link{
+	padding-top: 12vw;
+	text-align: center;
+}
+.f-web-link img{
+	height: 13vw;
+}
+/* 下导航区  f-web-nav-b---begin */
+.f-web-nav-b-in{
+	
+}
+.f-web-nav-b-in-con{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.f-web-nav-b-in-con img{
+	height: 2em;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+.f-web-nav-b{
+	width: 100%;
+	float: left;
+	background-color: #333333;
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+}
+/* 下导航区  f-web-nav-b---over */
+.f-web-mi{
+	color: red;
+	margin-left: 0.5em;
+}
