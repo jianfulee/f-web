@@ -1,0 +1,88 @@
+body{
+	font-size: 62.5%;
+}
+.f-web-content{
+	width: 100%;
+	padding-bottom: 6em;
+}
+.f-web-top{
+	height: 50vw;
+	width: 100%;
+	text-align: center;
+	padding-top: 2em;
+	background: url(../img/back.png);
+	background-size:  100% 100%;
+	margin-bottom: 2em;
+}
+.f-web-top img{
+	width: 40vw;
+}
+.f-web-title{
+	font-size: 2.4em;
+	color: #fff;
+	font-family: '微软雅黑';
+	line-height: 4em;
+}
+.f-web-sec{
+	width: 100%;
+}
+.f-web-sec-title{
+	font-size: 1.8em;
+	font-family: '微软雅黑';
+	line-height: 3;
+}
+.f-web-sec ul li{
+	font-family: '微软雅黑';
+	font-size: 1.5em;
+	line-height: 2.5;
+}
+.f-web-sec ul{
+	padding-left: 5em;
+}
+.f-web-sec-in{
+	padding-left: 2em;
+}
+.f-web-b{
+	width: 100%;
+	padding-top: 1em;
+}
+.f-web-b-in{
+	font-family: '微软雅黑';
+	font-size: 1.2em;
+	color: #888888;
+	padding-left: 7em;
+}
+.f-web-b-in p{
+	line-height: 1.9;
+}
+.f-web-b-b{
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
+.f-web-b-b img{
+	width: 33vw;
+}
+/* 下导航区  f-web-nav-b---begin */
+.f-web-nav-b-in{
+	height: 20vw;
+	line-height: 20vw;
+}
+.f-web-nav-b-in-con{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+}
+.f-web-nav-b-in-con img{
+	height: 2em;
+	
+}
+.f-web-nav-b{
+	width: 100%;
+	float: left;
+	background-color: #333333;
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+}
+/* 下导航区  f-web-nav-b---over */
