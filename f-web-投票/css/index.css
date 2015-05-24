@@ -65,13 +65,16 @@ body{
 }
 /* 下导航区  f-web-nav-b---begin */
 .f-web-nav-b-in{
-	height: 20vw;
-	line-height: 20vw;
+	height: 2.8em;
+	line-height: 2.8em;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
 }
 .f-web-nav-b-in-con{
 	width: 33.333%;
 	float: left;
 	text-align: center;
+	height: 2.8em;
 }
 .f-web-nav-b-in-con img{
 	height: 2.8em;
@@ -86,3 +89,6 @@ body{
 	bottom: 0px;
 }
 /* 下导航区  f-web-nav-b---over */
+.f-web-check{
+	margin-right: 0.3em;
+}
