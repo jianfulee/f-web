@@ -63,7 +63,7 @@ body{
 	font-size: 1.15em;
 }
 .f-web-links-in p{
-	line-height: 2.5em;
+	line-height: 2.1em;
 }
 .f-web-links-in p span{
 	display: inline-block;
@@ -95,6 +95,9 @@ body{
 	left: 0px;
 	top: 0px;
 	background: #fff;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 /* 链接区f-web-links----over */
 /* 链接区下  f-web-links-b----begin */
@@ -106,7 +109,7 @@ body{
 	background-color: #efefef;
 }
 .f-web-links-b img{
-	width: 10em;
+	width: 45%;
 
 }
 /* 链接区下  f-web-links-b----over */
@@ -294,3 +297,12 @@ body{
 	display: none;
 }
 /* 模态弹窗区---over */
+.f-web-btn-l{
+	margin-right: 0.5em;
+}
+.f--web-jinxingzhong{
+	margin-right: 0.5em;
+}
+.red{
+	color: red;
+}

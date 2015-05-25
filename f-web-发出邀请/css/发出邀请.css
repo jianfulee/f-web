@@ -8,6 +8,7 @@
 .f-web-wrapper{
 	width: 100%;
 	background: #efefef;
+	height: 100vh;
 }
 .f-web-top{
 	width: 100%;
@@ -26,13 +27,13 @@
 	text-align: center;
 }
 .f-web-top-con-in img{
-	width: 3em;
-	height: 3em;
+	width: 2em;
+	height: 2em;
 }
 /* f-web-top结束了 */
 .f-web-middle-share img{
-	width: 3em;
-	height: 3em;
+	width: 2em;
+	height: 2em;
 }
 .f-web-middle{
 	font-family: '微软雅黑';
@@ -40,21 +41,19 @@
 	background: #fff;
 }
 .f-web-middle-share p{
-	line-height: 3em;
-	height: 3em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
 	border-bottom: 1px solid #efefef;
 }
 .f-web-share-text{
 	display: inline-block;
-	line-height: 3em;
+	line-height: 2em;
 	margin-left: 1.5em;
 }
 .f-web-share-img{
 	display: inline-block;
 	float: left;
-	height: 3em;
+	height: 2em;
 }
 .f-web-middle-share{
 	padding-left: 1.5em;
@@ -71,3 +70,29 @@
 .f-web-botom-con img{
 	height: 3em;
 }
+/* 下导航区  f-web-nav-b---begin */
+.f-web-nav-b-in{
+	height: 2.8em;
+	line-height: 2.8em;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+}
+.f-web-nav-b-in-con{
+	width: 33.333%;
+	float: left;
+	text-align: center;
+	height: 2.8em;
+}
+.f-web-nav-b-in-con img{
+	height: 2.8em;
+	
+}
+.f-web-nav-b{
+	width: 100%;
+	float: left;
+	background-color: #333333;
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+}
+/* 下导航区  f-web-nav-b---over */
