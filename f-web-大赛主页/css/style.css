@@ -294,3 +294,7 @@ body{
 	display: none;
 }
 /* 模态弹窗区---over */
+/*6月份新增的回复评论样式*/
+.posted-nser{
+	color: #3498db;
+}
